@@ -1,0 +1,4 @@
+name: admin
+super: true
+id: be5adfff-e61c-45ec-b3eb-e0ede3b14d26
+password_hash: $2y$10$HCZtzogI3tg/RcskI7CJqubRYkikFHEUA4NAxmSZ/VzoBYsk2/cDm
