@@ -1,8 +1,29 @@
 title: Asset
-fields:
-  -
-    handle: alt
-    field:
-      display: 'Alt Text'
-      type: text
-      instructions: 'Description of the image'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: alt
+        field:
+          display: 'Alt Text'
+          type: text
+          instructions: 'Description of the image'
+      -
+        handle: asset_type
+        field:
+          options:
+            dog: Dog
+            cat: Cat
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: 'Asset Type'
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          read_only: false
